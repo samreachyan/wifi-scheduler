@@ -182,8 +182,8 @@ def check_memory_and_restart():
         os.execl(python, python, *sys.argv)
 
 
-# Schedule the task every 20 minutes
-schedule.every(10).seconds.do(task)
+# Schedule the task every 29 minutes
+schedule.every(29).minutes.do(task)
 
 # First running
 task()
